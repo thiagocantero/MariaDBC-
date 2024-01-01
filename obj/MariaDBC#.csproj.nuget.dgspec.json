@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/notelinux/Documentos/dotnet/MariaDBC#/MariaDBC#.csproj": {}
+  },
+  "projects": {
+    "/home/notelinux/Documentos/dotnet/MariaDBC#/MariaDBC#.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/notelinux/Documentos/dotnet/MariaDBC#/MariaDBC#.csproj",
+        "projectName": "MariaDBC#",
+        "projectPath": "/home/notelinux/Documentos/dotnet/MariaDBC#/MariaDBC#.csproj",
+        "packagesPath": "/home/notelinux/.nuget/packages/",
+        "outputPath": "/home/notelinux/Documentos/dotnet/MariaDBC#/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/notelinux/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.417/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
